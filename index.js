@@ -22,13 +22,28 @@ document.addEventListener('DOMContentLoaded', function(){
     // [] append paragraph element to selected container
     let container = document.querySelector('#container')
     let message = document.createElement('p')
-    message.innerHTML = "Hello Sweet World"
+    message.innerHTML = "1-800-MARINES"
     container.appendChild(message)
   })
 
   document.addEventListener('DOMContentLoaded', function(){
 
 })
+
+
+document.addEventListener('DOMContentLoaded', function(){
+
+    let changeColorButton = document.querySelector('#changeColor')
+  
+    let colorDiv = document.querySelector('#colorDiv')
+  
+    changeColorButton.addEventListener('click', function(){
+  
+        colorDiv.style.background = 'green'
+  
+    })
+  
+  })
 
 function changeColor(){
 
