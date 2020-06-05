@@ -26,11 +26,6 @@ document.addEventListener('DOMContentLoaded', function(){
     container.appendChild(message)
   })
 
-  document.addEventListener('DOMContentLoaded', function(){
-
-})
-
-
 document.addEventListener('DOMContentLoaded', function(){
 
     let changeColorButton = document.querySelector('#changeColor')
